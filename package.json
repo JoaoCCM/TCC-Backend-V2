@@ -19,7 +19,8 @@
     "express": "^4.17.1",
     "helmet": "^4.1.1",
     "morgan": "^1.10.0",
-    "neo4j-driver": "^4.1.2"
+    "neo4j-driver": "^4.1.2",
+    "xml-js": "^1.6.11"
   },
   "devDependencies": {
     "nodemon": "^2.0.5"
