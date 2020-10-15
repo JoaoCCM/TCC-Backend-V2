@@ -1,8 +1,11 @@
-module.exports = app => {
+module.exports = (app) => {
+  const sayHi = async () => {
+    const query = await app.db.matchNode("p", "Professor").return("p").run();
 
-    const sayHi = () => {
-        return 'Hi, Beatriz';
-    }
+    // const query = await app.db.match([node("p", "Professor")]);
 
-    return { sayHi }
-}
+    return query;
+  };
+
+  return { sayHi };
+};
