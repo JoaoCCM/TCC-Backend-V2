@@ -1,0 +1,18 @@
+module.exports = {
+    identificacao: ["nome_completo"],
+    idiomas: ["idioma"],
+    idioma: ["nome", "proficiencia"],
+    formacao_academica: ["formacao"],
+    formacao: ["tipo", "nome_instituicao"],
+    projetos_pesquisa: ["projeto"],
+    projeto: ["nome", "descricao"],
+    area_atuacao: ["descricao"],
+    artigos_em_periodicos: ["artigo"],
+    artigo: ["doi", "titulo"],
+    producao_tecnica: ["producao"],
+    producao: ["titulo"],
+    orientacao_tcc_concluido: ["tcc"],
+    tcc: ["titulo_trabalho"],
+    orientacao_iniciacao_cientifica_concluido: ["iniciacao_cientifica"],
+    iniciacao_cientifica: ["titulo_trabalho"],
+};
