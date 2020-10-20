@@ -1,15 +1,14 @@
-module.exports = app => {
+module.exports = (app) => {
+  const { sayHi } = app.repository.userRepository;
 
-    const { sayHi } = app.repository.userRepository;
-
-    const createOne = () => {
-        try {
-            const user = sayHi();
-            return user;
-        } catch (error) {
-            throw error
-        }
+  const createOne = async () => {
+    try {
+      const user = await sayHi();
+      return user;
+    } catch (error) {
+      throw error;
     }
+  };
 
-    return { createOne }
-}
+  return { createOne };
+};
