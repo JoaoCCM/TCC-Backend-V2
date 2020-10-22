@@ -1,5 +1,5 @@
 module.exports = (app) => {
-    const { list } = app.controlles.teacherControlle;
+  const { list } = app.controllers.teacherController;
 
-    app.get("/teacher", list);
+  app.get("/teacher", list);
 };
