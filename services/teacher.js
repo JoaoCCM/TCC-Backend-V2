@@ -5,13 +5,24 @@ module.exports = (app) => {
     try {
       const teachersData = await listOneTeacher(name);
 
-      const filterTeachersData = Object.values(teachersData).map((item) => {
-        const { relationship, data } = item;
-        return {
-          relationship: { name: relationship.label, properties: relationship.properties },
-          data: { name: data.labels[0], properties: data.properties },
+      const filterTeachersData = teachersData.reduce((acc, currentItem) => {
+        const {
+          relationship: { label: relationshipName, properties: relationshipProp },
+          data: { labels, properties },
+        } = currentItem;
+
+        const currentData = acc[labels[0]];
+        const oldValue = currentData || { relationshipName, items: [] };
+
+        const newObject = {
+          [labels[0]]: {
+            ...oldValue,
+            items: [...oldValue.items, { relationshipProp, properties }],
+          },
         };
-      });
+
+        return { ...acc, ...newObject };
+      }, []);
 
       return { ...filterTeachersData };
     } catch (error) {
