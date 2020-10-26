@@ -14,7 +14,7 @@
 
 | Params | Type   | Format   | Example                | Required |
 | ------ | ------ | -------- | ---------------------- | -------- |
-| name   | string | `number` | "Andre Marcelo Panhan" | true     |
+| name   | string | `string` | "Andre Marcelo Panhan" | true     |
 
 ### Sample Response
 
@@ -69,5 +69,43 @@
       }
     ]
   }
+}
+```
+
+### - **(POST) Create User -**
+
+- _create a new user ._
+
+```curl
+ /user
+```
+
+#### Body example
+
+```json
+{
+  "nome": "Beatriz",
+  "email": "beatriz@gmail.com",
+  "senha": "123456",
+  "foto": "foto",
+  "curso": "ADS"
+}
+```
+
+#### Query string parameters
+
+| Params | Type   | Format   | Example             | Required |
+| ------ | ------ | -------- | ------------------- | -------- |
+| name   | string | `string` | `Beatriz`           | true     |
+| email  | string | `string` | `beatriz@gmail.com` | true     |
+| senha  | string | `string` | `123456`            | true     |
+| foto   | string | `string` | `foto`              | true     |
+| curso  | string | `string` | `ADS`               | true     |
+
+#### Sample Response
+
+```json
+{
+  "result": {}
 }
 ```

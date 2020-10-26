@@ -1,9 +1,9 @@
 module.exports = (app) => {
-  const { sayHi } = app.repository.userRepository;
+  const { createUser } = app.repository.userRepository;
 
-  const createOne = async () => {
+  const createOne = async (data) => {
     try {
-      const user = await sayHi();
+      const user = await createUser(data);
       return user;
     } catch (error) {
       throw error;

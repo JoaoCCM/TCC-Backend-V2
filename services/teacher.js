@@ -1,5 +1,5 @@
 module.exports = (app) => {
-  const { listOneTeacher } = app.repository.teacherRepository;
+  const { listOneTeacher, listRelatedTeachers } = app.repository.teacherRepository;
 
   const getOne = async (name) => {
     try {
@@ -30,5 +30,18 @@ module.exports = (app) => {
     }
   };
 
-  return { getOne };
+  const getRelated = async (search) => {
+    try {
+      const result = await listRelatedTeachers(search);
+      const mapped_data = result.map((m) => m.nome);
+      const data = mapped_data.filter(function (item, pos) {
+        return mapped_data.indexOf(item) == pos;
+      });
+      return data;
+    } catch (err) {
+      throw err;
+    }
+  };
+
+  return { getOne, getRelated };
 };

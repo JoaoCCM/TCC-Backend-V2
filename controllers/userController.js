@@ -3,8 +3,8 @@ module.exports = (app) => {
 
   const create = async (req, res) => {
     try {
-      const result = await createOne();
-      return res.status(200).json({ result });
+      const result = await createOne(req.body);
+      return res.status(200).json(result);
     } catch (e) {
       const { message } = e;
       return res.status(500).json(message);
