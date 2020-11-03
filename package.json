@@ -16,12 +16,13 @@
         "consign": "^0.1.6",
         "cors": "^2.8.5",
         "cypher-query-builder": "^6.0.1",
-        "puppeteer": "^3.0.4",
         "dotenv": "^8.2.0",
         "express": "^4.17.1",
         "helmet": "^4.1.1",
+        "jsonwebtoken": "^8.5.1",
         "morgan": "^1.10.0",
         "neo4j-driver": "^4.1.2",
+        "puppeteer": "^3.0.4",
         "xml-js": "^1.6.11"
     },
     "devDependencies": {
