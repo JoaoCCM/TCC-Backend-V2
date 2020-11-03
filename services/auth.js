@@ -16,19 +16,19 @@ module.exports = app => {
 
             if (!user[0]) return res.status(500).json({ message: "User not found" });
 
-            bcrypt.compare(user[0].senha, senha, async (err, match) => {
-                if (err || !match) return res.status(401).json({ message: "Access Denied" });
+            bcrypt.compare(senha, user[0].senha, async (err, match) => {
+                if (err || !match)
+                    return res.status(401).json({ message: 'Access Denied' })
 
-                const payload = { id: user[0].id };
+                const payload = { id: user[0].id }
 
-                const token = jwt.sign({ payload }, secret);
+                const token = jwt.sign({ payload }, secret)
 
-                const { email, nome } = user[0];
+                const { email, nome } = user[0]
 
-                const data = { nome, email, token };
+                const data = { nome, email, token }
 
-                return res.status(200).json(data);
-
+                return res.status(200).json(data)
             })
 
         } catch (error) {
