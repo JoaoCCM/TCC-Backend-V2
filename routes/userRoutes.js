@@ -1,5 +1,6 @@
 module.exports = (app) => {
-  const { create } = app.controllers.userController;
+    const { create, find } = app.controllers.userController
 
-  app.post("/user", create);
-};
+    app.post('/user', create)
+    app.get('/findUser', find)
+}

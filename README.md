@@ -4,7 +4,9 @@
 
 ### - **(GET) Teacher Data -**
 
-- _return teacher data based on name ._
+<details>
+
+-   _return teacher data based on name ._
 
 ```curl
  /teacher/?name=${teacherName}
@@ -20,61 +22,65 @@
 
 ```json
 {
-  "AreaAtuacao": {
-    "relationshipName": "atua",
-    "items": [
-      {
-        "relationshipProp": {},
-        "properties": {
-          "nome": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Engenharia de Software."
-        }
-      }
-    ]
-  },
-  "Orientacao": {
-    "relationshipName": "orientou",
-    "items": [
-      {
-        "relationshipProp": {},
-        "properties": {
-          "tituloTrabalho": "Sistema de Mensagens Instantâneas Mobile Baseado no Servidor Openfire",
-          "tipo": "TCC"
-        }
-      }
-    ]
-  },
-  "FormacaoAcademica": {
-    "relationshipName": "formado",
-    "items": [
-      {
-        "relationshipProp": {
-          "nome_instituicao": "Universidade Estadual de Campinas, UNICAMP, Brasil"
-        },
-        "properties": {
-          "tipo": "Doutorado em Doutorado em Engenharia Elétrica"
-        }
-      }
-    ]
-  },
-  "Idioma": {
-    "relationshipName": "temConhecimento",
-    "items": [
-      {
-        "relationshipProp": {
-          "proficiencia": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
-        },
-        "properties": {
-          "nome": "Inglês"
-        }
-      }
-    ]
-  }
+    "AreaAtuacao": {
+        "relationshipName": "atua",
+        "items": [
+            {
+                "relationshipProp": {},
+                "properties": {
+                    "nome": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Engenharia de Software."
+                }
+            }
+        ]
+    },
+    "Orientacao": {
+        "relationshipName": "orientou",
+        "items": [
+            {
+                "relationshipProp": {},
+                "properties": {
+                    "tituloTrabalho": "Sistema de Mensagens Instantâneas Mobile Baseado no Servidor Openfire",
+                    "tipo": "TCC"
+                }
+            }
+        ]
+    },
+    "FormacaoAcademica": {
+        "relationshipName": "formado",
+        "items": [
+            {
+                "relationshipProp": {
+                    "nome_instituicao": "Universidade Estadual de Campinas, UNICAMP, Brasil"
+                },
+                "properties": {
+                    "tipo": "Doutorado em Doutorado em Engenharia Elétrica"
+                }
+            }
+        ]
+    },
+    "Idioma": {
+        "relationshipName": "temConhecimento",
+        "items": [
+            {
+                "relationshipProp": {
+                    "proficiencia": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+                },
+                "properties": {
+                    "nome": "Inglês"
+                }
+            }
+        ]
+    }
 }
 ```
 
+</details>
+
 ### - **(POST) Create User -**
 
-- _create a new user ._
+<details>
+
+-   _create a new user ._
 
 ```curl
  /user
@@ -84,11 +90,11 @@
 
 ```json
 {
-  "nome": "Beatriz",
-  "email": "beatriz@gmail.com",
-  "senha": "123456",
-  "foto": "foto",
-  "curso": "ADS"
+    "nome": "Beatriz",
+    "email": "beatriz@gmail.com",
+    "senha": "123456",
+    "foto": "foto",
+    "curso": "ADS"
 }
 ```
 
@@ -106,6 +112,8 @@
 
 ```json
 {
-  "result": {}
+    "result": {}
 }
 ```
+
+<details>
