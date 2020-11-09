@@ -1,20 +1,21 @@
-const jwt = require('jsonwebtoken');
-const bcrypt = require('bcrypt');
-const secret = process.env.JWT_SECRET;
+const jwt = require('jsonwebtoken')
+const bcrypt = require('bcrypt')
+const secret = process.env.JWT_SECRET
 
-module.exports = app => {
-
-    const { findUser } = app.repository.userRepository
+module.exports = (app) => {
+    const { findOne } = app.services.user
 
     const signIn = async (req, res) => {
         try {
-            const { email, senha } = req.body;
+            const { email, senha } = req.body
 
-            if (!email || !senha) return res.status(400).json({ message: "Missing information" });
+            if (!email || !senha)
+                return res.status(400).json({ message: 'Missing information' })
 
-            const user = await findUser({ email });
+            const user = await findOne({ email })
 
-            if (!user[0]) return res.status(500).json({ message: "User not found" });
+            if (!user[0])
+                return res.status(500).json({ message: 'User not found' })
 
             bcrypt.compare(senha, user[0].senha, async (err, match) => {
                 if (err || !match)
@@ -30,9 +31,7 @@ module.exports = app => {
 
                 return res.status(200).json(data)
             })
-
-        } catch (error) {
-            const { message } = error;
+        } catch ({ message }) {
             return res.status(500).json(message)
         }
     }
