@@ -32,17 +32,18 @@ module.exports = (app) => {
     }
 
     const createRelationship = async (search) => {
-        const { userInfo, teacherInfo } = search
+        const { userInfo, teacherInfo, searchParams } = search
 
         const finalUser = whereStructuring(userInfo)
         const finalTeacher = whereStructuring(teacherInfo)
+        const finalSearch = `{ searchParams: '${searchParams}' }`
 
         try {
             return app.db
                 .raw(
                     ` MATCH (aluno:Aluno ${finalUser})
                       MATCH (professor:Professor ${finalTeacher})
-                      CREATE (aluno)-[rel:favoritou]->(professor)`
+                      CREATE (aluno)-[rel:favoritou ${finalSearch}]->(professor)`
                 )
                 .run()
         } catch (e) {
