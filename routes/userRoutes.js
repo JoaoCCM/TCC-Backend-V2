@@ -14,6 +14,22 @@ module.exports = (app) => {
      *            type: string
      *          curso:
      *            type: string
+     *     UserResponse:
+     *       type: object
+     *       properties:
+     *          email:
+     *            type: string
+     *          nome:
+     *            type: string
+     *          curso:
+     *            type: string
+     *     Favorite:
+     *       type: object
+     *       properties:
+     *          userInfo:
+     *            type: string
+     *          teacherInfo:
+     *            type: string
      *
      *
      *
@@ -35,6 +51,43 @@ module.exports = (app) => {
      *            description: Created
      *            schema:
      *              $ref: '#/components/schemas/User'
+     * @swagger
+     * /findUser:
+     *     get:
+     *        tags:
+     *          - user
+     *        description: Use to get a user by email
+     *        produces:
+     *          - application/json
+     *        parameters:
+     *          - in: query
+     *            name: email
+     *            schema:
+     *              type: string
+     *            required: true
+     *        responses:
+     *          '200':
+     *            description: Success
+     *            schema:
+     *              $ref: '#/components/schemas/UserResponse'
+     * @swagger
+     * /favorite:
+     *     post:
+     *        tags:
+     *          - user
+     *        description: Use to favorite a teacher
+     *        produces:
+     *          - application/json
+     *        requestBody:
+     *          content:
+     *            application/json:
+     *              schema:
+     *                $ref: '#/components/schemas/Favorite'
+     *        responses:
+     *          '200':
+     *            description: Success
+     *            schema:
+     *              $ref: '#/components/schemas/Favorite'
      *
      */
 
