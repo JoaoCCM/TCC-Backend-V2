@@ -31,7 +31,6 @@ module.exports = (app) => {
         }
     }
 
-    //TODO: implement these queries
     const createRelationship = async (search) => {
         const { userInfo, teacherInfo } = search
 
