@@ -38,8 +38,15 @@ module.exports = (app) => {
      *
      */
 
-    const { create, find } = app.controllers.userController
+    const {
+        create,
+        find,
+        favorite,
+        unfavorite,
+    } = app.controllers.userController
 
     app.post('/user', create)
     app.get('/findUser', find)
+    app.post('/favorite', favorite)
+    app.post('/unfavorite', unfavorite)
 }

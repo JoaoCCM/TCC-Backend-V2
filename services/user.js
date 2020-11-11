@@ -1,7 +1,12 @@
 const bcrypt = require('bcrypt')
 
 module.exports = (app) => {
-    const { createUser, findUser } = app.repository.userRepository
+    const {
+        createUser,
+        findUser,
+        createRelationship,
+        deleteRelationship,
+    } = app.repository.userRepository
 
     const createOne = async (data) => {
         try {
@@ -40,5 +45,25 @@ module.exports = (app) => {
         }
     }
 
-    return { createOne, findOne }
+    const favoriteTeacher = async (search) => {
+        try {
+            const request = await createRelationship(search)
+
+            return request
+        } catch (error) {
+            throw error
+        }
+    }
+
+    const unfavoriteTeacher = async (search) => {
+        try {
+            const request = await deleteRelationship(search)
+
+            return request
+        } catch (error) {
+            throw error
+        }
+    }
+
+    return { createOne, findOne, favoriteTeacher, unfavoriteTeacher }
 }

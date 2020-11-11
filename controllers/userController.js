@@ -1,5 +1,10 @@
 module.exports = (app) => {
-    const { createOne, findOne } = app.services.user
+    const {
+        createOne,
+        findOne,
+        favoriteTeacher,
+        unfavoriteTeacher,
+    } = app.services.user
 
     const create = async (req, res) => {
         try {
@@ -21,5 +26,25 @@ module.exports = (app) => {
         }
     }
 
-    return { create, find }
+    const favorite = async (req, res) => {
+        try {
+            const result = await favoriteTeacher(req.body)
+            return res.status(200).json(result)
+        } catch (e) {
+            const { message } = e
+            return res.status(500).json(message)
+        }
+    }
+
+    const unfavorite = async (req, res) => {
+        try {
+            const result = await unfavoriteTeacher(req.body)
+            return res.status(200).json(result)
+        } catch (e) {
+            const { message } = e
+            return res.status(500).json(message)
+        }
+    }
+
+    return { create, find, favorite, unfavorite }
 }

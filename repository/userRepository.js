@@ -1,4 +1,8 @@
 module.exports = (app) => {
+    const whereStructuring = (where = {}) => {
+        const key = Object.keys(where)[0]
+        return `{${key}: "${where[key]}"}`
+    }
     const createUser = async ({ nome, email, senha, foto, curso }) => {
         try {
             const query = await app.db
@@ -15,8 +19,7 @@ module.exports = (app) => {
 
     const findUser = async (where = {}) => {
         try {
-            const key = Object.keys(where)[0]
-            const final = `{${key}: "${where[key]}"}`
+            const final = whereStructuring(where)
 
             const query = await app.db
                 .raw(`MATCH (aluno:Aluno ${final}) RETURN aluno`)
@@ -30,11 +33,16 @@ module.exports = (app) => {
 
     //TODO: implement these queries
     const createRelationship = async (search) => {
+        const { userInfo, teacherInfo } = search
+
+        const finalUser = whereStructuring(userInfo)
+        const finalTeacher = whereStructuring(teacherInfo)
+
         try {
             return app.db
                 .raw(
-                    `MATCH (aluno:Aluno {name: 'Jennifer'})
-                      MATCH (professor:Professor {name: 'Mark'})
+                    ` MATCH (aluno:Aluno ${finalUser})
+                      MATCH (professor:Professor ${finalTeacher})
                       CREATE (aluno)-[rel:favoritou]->(professor)`
                 )
                 .run()
@@ -44,10 +52,15 @@ module.exports = (app) => {
     }
 
     const deleteRelationship = async (search) => {
+        const { userInfo, teacherInfo } = search
+
+        const finalUser = whereStructuring(userInfo)
+        const finalTeacher = whereStructuring(teacherInfo)
+
         try {
             return app.db
                 .raw(
-                    `MATCH (aluno:Aluno {name: 'Jennifer'})-[r:favoritou]->(professor:Professor {name: 'Mark'})
+                    `MATCH (aluno:Aluno ${finalUser})-[r:favoritou]->(professor:Professor ${finalTeacher})
                     DELETE r`
                 )
                 .run()
@@ -56,5 +69,5 @@ module.exports = (app) => {
         }
     }
 
-    return { createUser, findUser }
+    return { createUser, findUser, createRelationship, deleteRelationship }
 }
