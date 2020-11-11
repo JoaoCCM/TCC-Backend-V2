@@ -2,11 +2,18 @@ const bcrypt = require('bcrypt')
 
 module.exports = (app) => {
     const {
-        createUser,
         findUser,
+        createUser,
         createRelationship,
         deleteRelationship,
+        findFavoritesTeachers,
     } = app.repository.userRepository
+
+    const formatReturn = (request, label) =>
+        request.map((it) => ({
+            id: it[label].identity,
+            ...it[label].properties,
+        }))
 
     const createOne = async (data) => {
         try {
@@ -36,10 +43,7 @@ module.exports = (app) => {
         try {
             const request = await findUser({ email })
 
-            return request.map((it) => ({
-                id: it.aluno.identity,
-                ...it.aluno.properties,
-            }))
+            return formatReturn(request, 'aluno')
         } catch (error) {
             throw error
         }
@@ -65,5 +69,21 @@ module.exports = (app) => {
         }
     }
 
-    return { createOne, findOne, favoriteTeacher, unfavoriteTeacher }
+    const findFavoriteTeacher = async (search) => {
+        try {
+            const request = await findFavoritesTeachers(search)
+
+            return formatReturn(request, 'professor')
+        } catch (error) {
+            throw error
+        }
+    }
+
+    return {
+        findOne,
+        createOne,
+        favoriteTeacher,
+        unfavoriteTeacher,
+        findFavoriteTeacher,
+    }
 }

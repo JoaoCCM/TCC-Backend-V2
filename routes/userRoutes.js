@@ -43,10 +43,12 @@ module.exports = (app) => {
         find,
         favorite,
         unfavorite,
+        getFavorites,
     } = app.controllers.userController
 
     app.post('/user', create)
     app.get('/findUser', find)
     app.post('/favorite', favorite)
     app.post('/unfavorite', unfavorite)
+    app.get('/getFavorites', getFavorites)
 }

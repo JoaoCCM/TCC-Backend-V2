@@ -58,16 +58,29 @@ module.exports = (app) => {
         const finalTeacher = whereStructuring(teacherInfo)
 
         try {
-            return app.db
-                .raw(
-                    `MATCH (aluno:Aluno ${finalUser})-[r:favoritou]->(professor:Professor ${finalTeacher})
-                    DELETE r`
-                )
-                .run()
+            const query = `MATCH (aluno:Aluno ${finalUser})-[r:favoritou]->(professor:Professor ${finalTeacher}) DELETE r`
+            return app.db.raw(query).run()
         } catch (e) {
             throw e
         }
     }
 
-    return { createUser, findUser, createRelationship, deleteRelationship }
+    const findFavoritesTeachers = async (search) => {
+        const searchParam = whereStructuring(search)
+
+        try {
+            const query = `MATCH (:Aluno ${searchParam})-[r:favoritou]->(professor:Professor) RETURN professor`
+            return app.db.raw(query).run()
+        } catch (e) {
+            throw e
+        }
+    }
+
+    return {
+        createUser,
+        findUser,
+        createRelationship,
+        deleteRelationship,
+        findFavoritesTeachers,
+    }
 }
