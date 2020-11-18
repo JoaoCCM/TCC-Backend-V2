@@ -76,15 +76,25 @@ module.exports = (app) => {
         }
     }
 
-    const updateUser = async (nome, { email, senha, foto, curso }) => {
+    const updateUser = async (
+        nome,
+        { nome: novoNome, email, senha, foto, curso }
+    ) => {
         try {
-            await app.db
-                .raw(
-                    `Match(a:Aluno {nome: ${nome}})
-                SET n.nome = ${nome}, n.email = ${email}, n.foto = ${foto}, n.curso = ${curso}
-            `
-                )
-                .run()
+            const query = `MATCH (a:Aluno { nome: "${nome}" })
+                SET a.nome = "${novoNome}", a.email = "${email}", a.foto = "${foto}", a.curso = "${curso}"`
+
+            return app.db.raw(query).run()
+        } catch (e) {
+            throw e
+        }
+    }
+
+    const deleteUser = async (nome) => {
+        try {
+            const query = `MATCH (a:Aluno { nome: "${nome}" }) DETACH DELETE a`
+
+            return app.db.raw(query).run()
         } catch (e) {
             throw e
         }
@@ -93,6 +103,7 @@ module.exports = (app) => {
     return {
         createUser,
         updateUser,
+        deleteUser,
         findUser,
         createRelationship,
         deleteRelationship,

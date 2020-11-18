@@ -6,6 +6,7 @@ module.exports = (app) => {
         unfavoriteTeacher,
         findFavoriteTeacher,
         updateOne,
+        deleteOne,
     } = app.services.user
 
     const create = async (req, res) => {
@@ -61,7 +62,7 @@ module.exports = (app) => {
     const update = async (req, res) => {
         try {
             const { nome } = req.query
-            const result = await updateOne(nome, req.query)
+            const result = await updateOne(nome, req.body)
             return res.status(200).json({ message: 'Updated' })
         } catch (e) {
             const { message } = e
@@ -69,5 +70,24 @@ module.exports = (app) => {
         }
     }
 
-    return { create, find, favorite, unfavorite, getFavorites, update }
+    const deleteUser = async (req, res) => {
+        try {
+            const { nome } = req.query
+            const result = await deleteOne(nome)
+            return res.status(200).json({ message: 'Deleted' })
+        } catch (e) {
+            const { message } = e
+            return res.status(500).json(message)
+        }
+    }
+
+    return {
+        create,
+        find,
+        favorite,
+        unfavorite,
+        getFavorites,
+        update,
+        deleteUser,
+    }
 }

@@ -8,6 +8,7 @@ module.exports = (app) => {
         deleteRelationship,
         findFavoritesTeachers,
         updateUser,
+        deleteUser,
     } = app.repository.userRepository
 
     const formatReturn = (request, label) =>
@@ -90,6 +91,16 @@ module.exports = (app) => {
         }
     }
 
+    const deleteOne = async (nome) => {
+        try {
+            const result = await deleteUser(nome)
+            if (!result) throw new Error('Não encontrado')
+            return result
+        } catch (e) {
+            throw e
+        }
+    }
+
     return {
         findOne,
         createOne,
@@ -97,5 +108,6 @@ module.exports = (app) => {
         unfavoriteTeacher,
         findFavoriteTeacher,
         updateOne,
+        deleteOne,
     }
 }
