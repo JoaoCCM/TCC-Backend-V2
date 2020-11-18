@@ -10,9 +10,24 @@ module.exports = (app) => {
     }
     const listRelatedTeachers = async (search) => {
         try {
-            const query = `MATCH (professor:Professor)-[relationship]-(data:ProjetoPesquisa)
-            WHERE data.descricao contains ${search} or data.nome contains ${search}
-            RETURN professor.nome as nome`
+            const query = `MATCH (professor:Professor)-[relationship]-(p:ProjetoPesquisa)
+                WHERE p.descricao contains ${search} or p.nome contains ${search}
+                RETURN professor.nome as nome
+                UNION ALL
+
+                MATCH (professor:Professor)-[relationship]-(o:Orientacao)
+                WHERE o.tituloTrabalho contains ${search}
+                RETURN professor.nome as nome
+                UNION ALL
+
+                MATCH (professor:Professor)-[r]-(f:FormacaoAcademica)
+                WHERE f.tipo contains ${search} or r.nome_instituicao contains ${search}
+                RETURN professor.nome as nome
+                UNION ALL
+
+                MATCH (professor:Professor)-[relationship]-(a:AreaAtuacao)
+                WHERE a.nome contains ${search}
+                RETURN professor.nome as nome`
 
             return app.db.raw(query).run()
         } catch (e) {
