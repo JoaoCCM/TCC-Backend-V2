@@ -52,9 +52,9 @@ module.exports = (app) => {
      *
      */
 
+    const { list, listAll, listSearchArea } = app.controllers.teacherController
 
-  const { list, listAll } = app.controllers.teacherController;
-
-  app.get("/teacher", list);
-  app.get("/teacher/search", listAll);
-};
+    app.get('/teacher', list)
+    app.get('/teacher/search', listAll)
+    app.get('/teacher/areas', listSearchArea)
+}
