@@ -71,6 +71,30 @@ module.exports = (app) => {
      *            schema:
      *              $ref: '#/components/schemas/UserResponse'
      * @swagger
+     * /user/edit:
+     *     put:
+     *        tags:
+     *          - user
+     *        description: Use to edit a user
+     *        produces:
+     *          - application/json
+     *        parameters:
+     *          - in: query
+     *            name: nome
+     *            schema:
+     *              type: string
+     *            required: true
+     *        requestBody:
+     *          content:
+     *            application/json:
+     *              schema:
+     *                $ref: '#/components/schemas/User'
+     *        responses:
+     *          '200':
+     *            description: Success
+     *            schema:
+     *              $ref: '#/components/schemas/UserResponse'
+     * @swagger
      * /favorite:
      *     post:
      *        tags:
@@ -97,9 +121,11 @@ module.exports = (app) => {
         favorite,
         unfavorite,
         getFavorites,
+        update,
     } = app.controllers.userController
 
     app.post('/user', create)
+    app.put('/user/edit', update)
     app.get('/findUser', find)
     app.post('/favorite', favorite)
     app.post('/unfavorite', unfavorite)

@@ -7,6 +7,7 @@ module.exports = (app) => {
         createRelationship,
         deleteRelationship,
         findFavoritesTeachers,
+        updateUser,
     } = app.repository.userRepository
 
     const formatReturn = (request, label) =>
@@ -79,11 +80,22 @@ module.exports = (app) => {
         }
     }
 
+    const updateOne = async (nome, data) => {
+        try {
+            const result = await updateUser(nome, data)
+            if (!result) throw new Error('Não encontrado')
+            return result
+        } catch (e) {
+            throw e
+        }
+    }
+
     return {
         findOne,
         createOne,
         favoriteTeacher,
         unfavoriteTeacher,
         findFavoriteTeacher,
+        updateOne,
     }
 }

@@ -76,8 +76,23 @@ module.exports = (app) => {
         }
     }
 
+    const updateUser = async (nome, { email, senha, foto, curso }) => {
+        try {
+            await app.db
+                .raw(
+                    `Match(a:Aluno {nome: ${nome}})
+                SET n.nome = ${nome}, n.email = ${email}, n.foto = ${foto}, n.curso = ${curso}
+            `
+                )
+                .run()
+        } catch (e) {
+            throw e
+        }
+    }
+
     return {
         createUser,
+        updateUser,
         findUser,
         createRelationship,
         deleteRelationship,
