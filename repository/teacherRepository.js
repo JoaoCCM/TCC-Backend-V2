@@ -11,22 +11,32 @@ module.exports = (app) => {
     const listRelatedTeachers = async (search) => {
         try {
             const query = `MATCH (professor:Professor)-[relationship]-(p:ProjetoPesquisa)
-                WHERE p.descricao contains ${search} or p.nome contains ${search}
+                WHERE p.descricao =~ '(?i).*${search}.*' or p.nome =~ '(?i).*${search}.*' 
+                RETURN professor.nome as nome
+                UNION ALL
+
+                MATCH (professor:Professor)
+                WHERE professor.nome =~ '(?i).*${search}.*' 
                 RETURN professor.nome as nome
                 UNION ALL
 
                 MATCH (professor:Professor)-[relationship]-(o:Orientacao)
-                WHERE o.tituloTrabalho contains ${search}
+                WHERE o.tituloTrabalho =~ '(?i).*${search}.*' 
+                RETURN professor.nome as nome
+                UNION ALL
+
+                MATCH (professor:Professor)-[relationIdioma]-(i:Idioma)
+                WHERE i.nome =~ '(?i).*${search}.*' or relationIdioma.proficiencia =~ '(?i).*${search}.*' 
                 RETURN professor.nome as nome
                 UNION ALL
 
                 MATCH (professor:Professor)-[r]-(f:FormacaoAcademica)
-                WHERE f.tipo contains ${search} or r.nome_instituicao contains ${search}
+                WHERE f.tipo =~ '(?i).*${search}.*' or r.nome_instituicao =~ '(?i).*${search}.*' 
                 RETURN professor.nome as nome
                 UNION ALL
 
                 MATCH (professor:Professor)-[relationship]-(a:AreaAtuacao)
-                WHERE a.nome contains ${search}
+                WHERE a.nome =~ '(?i).*${search}.*'
                 RETURN professor.nome as nome`
 
             return app.db.raw(query).run()
