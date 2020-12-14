@@ -49,11 +49,17 @@ module.exports = (app) => {
     const getRelated = async (search) => {
         try {
             const result = await listRelatedTeachers(search)
-            const mapped_data = result.map((m) => m.nome)
-            const data = mapped_data.filter(function (item, pos) {
-                return mapped_data.indexOf(item) == pos
-            })
-            return data
+
+            const reduceResponse = result.reduce((acc, item) => {
+                const {professor: {properties: { nome, foto }}} = item
+                const nameExist = acc.find(i => i.nome === item.professor.properties.nome )
+                
+                if(nameExist) return acc
+
+                return [...acc, { nome, foto }]
+            }, [])
+
+            return reduceResponse
         } catch (err) {
             throw err
         }
@@ -82,10 +88,16 @@ module.exports = (app) => {
 
                 const newArray = [...allAreas, ...cleanName]
 
-                return newArray.filter(
-                    (current, index) =>
-                        current && newArray.indexOf(current) === index
-                )
+                return newArray
+                    .filter(
+                        (current, index) =>
+                            current && newArray.indexOf(current) === index
+                    )
+                    .sort((a, b) => {
+                        if (a.length > b.length) return 1
+                        if (a.length < b.length) return -1
+                        return 0
+                    })
             }, [])
 
             return data

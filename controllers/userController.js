@@ -21,7 +21,8 @@ module.exports = (app) => {
 
     const find = async (req, res) => {
         try {
-            const result = await findOne(req.query)
+            const { email } = req.user.payload
+            const result = await findOne(email)
             return res.status(200).json(result)
         } catch (e) {
             const { message } = e
@@ -31,8 +32,12 @@ module.exports = (app) => {
 
     const favorite = async (req, res) => {
         try {
-            const result = await favoriteTeacher(req.body)
-            return res.status(200).json(result)
+            const { email } = req.user.payload
+            await favoriteTeacher({
+                ...req.body,
+                userInfo: { email },
+            })
+            return res.status(200).send()
         } catch (e) {
             const { message } = e
             return res.status(500).json(message)
@@ -41,7 +46,11 @@ module.exports = (app) => {
 
     const unfavorite = async (req, res) => {
         try {
-            const result = await unfavoriteTeacher(req.body)
+            const { email } = req.user.payload
+            await favoriteTeacher({
+                ...req.body,
+                userInfo: { email },
+            })
             return res.status(200).json(result)
         } catch (e) {
             const { message } = e

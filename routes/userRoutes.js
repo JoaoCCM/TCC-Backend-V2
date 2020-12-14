@@ -125,11 +125,13 @@ module.exports = (app) => {
         deleteUser,
     } = app.controllers.userController
 
+    const { authMiddleware } = app.middlewares.authMiddleware
+
     app.post('/user', create)
-    app.put('/user/edit', update)
-    app.put('/user/delete', deleteUser)
-    app.get('/findUser', find)
-    app.post('/favorite', favorite)
-    app.post('/unfavorite', unfavorite)
-    app.get('/getFavorites', getFavorites)
+    app.put('/user/edit', authMiddleware, update)
+    app.put('/user/delete', authMiddleware, deleteUser)
+    app.get('/findUser', authMiddleware, find)
+    app.post('/favorite', authMiddleware, favorite)
+    app.post('/unfavorite', authMiddleware, unfavorite)
+    app.get('/getFavorites', authMiddleware, getFavorites)
 }

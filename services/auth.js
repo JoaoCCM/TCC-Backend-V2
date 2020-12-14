@@ -12,7 +12,7 @@ module.exports = (app) => {
             if (!email || !senha)
                 return res.status(400).json({ message: 'Missing information' })
 
-            const user = await findOne({ email })
+            const user = await findOne(email)
 
             if (!user[0])
                 return res.status(500).json({ message: 'User not found' })
@@ -21,11 +21,11 @@ module.exports = (app) => {
                 if (err || !match)
                     return res.status(401).json({ message: 'Access Denied' })
 
-                const payload = { id: user[0].id }
+                const { id, email, nome } = user[0]
+
+                const payload = { id, email }
 
                 const token = jwt.sign({ payload }, secret)
-
-                const { email, nome } = user[0]
 
                 const data = { nome, email, token }
 

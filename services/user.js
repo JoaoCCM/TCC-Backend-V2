@@ -41,7 +41,7 @@ module.exports = (app) => {
         return hashedSenha
     }
 
-    const findOne = async ({ email }) => {
+    const findOne = async (email) => {
         try {
             const request = await findUser({ email })
 
