@@ -7361,8 +7361,8 @@
           <doi>http://dx.doi.org/10.1186/1758-5996-7-s1-a254</doi>
           <titulo>Assistive technologies for diabetes care: a personalized software for progressive foot and ankle home exercises</titulo>
           <autores>SARTOR, CRISTINA ; FERREIRA, JANE ; OLIVEIRA, CRISTINA ; DE AZEVEDO FIGUEIREDO, DANIEL ; CRUZ, RAFAEL ; DE CAMARGO NEVES SACCO, ISABEL</autores>
-          <revista>Diabetology & Metabolic Syndrome</revista>
-          <volume>Diabetology & Metabolic Syndrome</volume>
+          <revista>Diabetology &amp; Metabolic Syndrome</revista>
+          <volume>Diabetology &amp; Metabolic Syndrome</volume>
           <paginas>A254</paginas>
           <numero></numero>
           <ano>2015</ano>
@@ -9049,20 +9049,20 @@
     <trabalho_completo_congresso>
         <trabalho_completo>
           <doi></doi>
-          <autores>DUARTE, C. R. ; SANTOS, D. T.</autores>
-          <titulo>UTILIZAÇÃO DE HARDWARES DE BAIXO CUSTO NO DESENVOLVIMENTO DO PENSAMENTO COMPUTACIONAL EM CURSOS DE ENGENHARIA</titulo>
-          <nome_evento>Congresso de Brasileiro de Educação em Engenharia</nome_evento>
-          <ano>2019</ano>
-          <volume></volume>
-          <paginas></paginas>
-        </trabalho_completo>
-        <trabalho_completo>
-          <doi></doi>
           <autores>CARVALHO, G. S. ; SANTOS, D. T. ; LOPO, A. B.</autores>
           <titulo>UM CAMINHO DE PRODUÇÃO DE VÍDEOS: ENQUANTO ISSO NA PADARIA  FUNÇÕES QUADRÁTICAS</titulo>
           <nome_evento>Encontro Nacional de Educação Matemática</nome_evento>
           <ano>2019</ano>
           <volume>XIII</volume>
+          <paginas></paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi></doi>
+          <autores>DUARTE, C. R. ; SANTOS, D. T.</autores>
+          <titulo>UTILIZAÇÃO DE HARDWARES DE BAIXO CUSTO NO DESENVOLVIMENTO DO PENSAMENTO COMPUTACIONAL EM CURSOS DE ENGENHARIA</titulo>
+          <nome_evento>Congresso de Brasileiro de Educação em Engenharia</nome_evento>
+          <ano>2019</ano>
+          <volume></volume>
           <paginas></paginas>
         </trabalho_completo>
         <trabalho_completo>
@@ -9198,12 +9198,12 @@
           <ano>2018</ano>
         </evento>
         <evento>
-          <titulo>Semana da Matemática e Educação Matematica - SEMAT. 2017</titulo>
+          <titulo>Semana de Tecnologia - SEMTEC. 2017</titulo>
           <natureza></natureza>
           <ano>2017</ano>
         </evento>
         <evento>
-          <titulo>Semana de Tecnologia - SEMTEC. 2017</titulo>
+          <titulo>Semana da Matemática e Educação Matematica - SEMAT. 2017</titulo>
           <natureza></natureza>
           <ano>2017</ano>
         </evento>

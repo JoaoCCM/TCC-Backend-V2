@@ -6,8 +6,14 @@
         }
     },
     "curriculo_lattes": {
+        "_attributes": {
+            "data_processamento": "11/10/2020 11:20:03"
+        },
         "pesquisador": [
             {
+                "_attributes": {
+                    "id": "8769520534974261"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -1558,6 +1564,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "8441246420907041"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -1670,6 +1679,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "2956539710510010"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -2035,6 +2047,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "2557440893085062"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -9529,6 +9544,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "0566875677798861"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -10329,6 +10347,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "9410220942954933"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -10421,6 +10442,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "1814982882268094"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -10692,6 +10716,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "8106581881944311"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -11871,6 +11898,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "7841337503464922"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -12048,6 +12078,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "5738981204081488"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -12096,6 +12129,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "2466155671795598"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -12592,6 +12628,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "4287711222508230"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -12788,6 +12827,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "5852071860398101"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -13363,6 +13405,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "6246109453810593"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -14345,6 +14390,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "3853867801869985"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -14784,6 +14832,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "8791614680381314"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -14977,6 +15028,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "8990481232462369"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -18491,6 +18545,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "5486255619537275"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -18833,6 +18890,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "9116508869778205"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -19386,6 +19446,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "3253651396438840"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -20215,6 +20278,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "9010440855059868"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -20516,6 +20582,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "6820760203514077"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -20682,6 +20751,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "8991027037351508"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -22576,6 +22648,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "2814954391324797"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -23243,6 +23318,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "7305431752431773"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -25039,6 +25117,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "2643891752823237"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -25445,6 +25526,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "2204430682949157"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -26440,6 +26524,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "6817246714098511"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -26870,6 +26957,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "4034666398076222"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -27679,6 +27769,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "4135458990570875"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -27746,6 +27839,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "8976791755900010"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -29957,6 +30053,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "6491042492628997"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -30770,6 +30869,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "3647493704547548"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -32472,6 +32574,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "1251450318945989"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -33055,6 +33160,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "7437590156111266"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -38100,6 +38208,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "7267977895420386"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -38244,6 +38355,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "0477788198290554"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -46212,6 +46326,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "8377008795343451"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -46276,6 +46393,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "0046989480783080"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -46886,6 +47006,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "7568564906196697"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -47160,6 +47283,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "2194989542047907"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -47924,6 +48050,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "3243857721603805"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -48674,6 +48803,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "6028133231859739"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -49432,6 +49564,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "1132670772678230"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -49888,6 +50023,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "1449845625874153"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -50095,6 +50233,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "8993138737805647"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -51269,6 +51410,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "0394231670222232"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},
@@ -51525,6 +51669,9 @@
                 }
             },
             {
+                "_attributes": {
+                    "id": "8922761914116551"
+                },
                 "identificacao": {
                     "identificador10": {},
                     "nome_inicial": {},

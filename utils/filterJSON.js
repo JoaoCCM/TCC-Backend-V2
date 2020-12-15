@@ -53,14 +53,27 @@ const filterJSONKeys = (json, validFields) => {
 const createFilterFile = (teacherJSON) => {
     const json = JSON.parse(teacherJSON)
 
+    const profEmailList = fs.readFileSync(
+        __dirname + '/src/listProfLattesID.json',
+        'utf-8'
+    )
+
+    const profEmailListJson = JSON.parse(profEmailList)
+
+
     const {
         curriculo_lattes: { pesquisador: pesquisadores },
     } = json
 
+    
     const filteredJson = {}
-    filteredJson.items = pesquisadores.map((pesquisador) =>
-        filterJSON(pesquisador)
-    )
+    filteredJson.items = pesquisadores.map((pesquisador) => {
+        const newTeacherObject = filterJSON(pesquisador)
+        newTeacherObject.identificacao.id = pesquisador._attributes.id
+        newTeacherObject.identificacao.email = profEmailListJson[pesquisador._attributes.id]
+
+        return newTeacherObject
+    })
 
     fs.writeFileSync(
         './src/filteredJSON.json',

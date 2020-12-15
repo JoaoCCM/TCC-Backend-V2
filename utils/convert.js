@@ -14,7 +14,6 @@ const convertXML = () => {
     const xmlConvertedToJSON = convert.xml2json(xml, {
         compact: true,
         spaces: 4,
-        ignoreAttributes: true,
     })
 
     //se o arquivo não existir o filesystem cria

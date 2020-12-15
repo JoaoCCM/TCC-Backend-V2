@@ -7,7 +7,7 @@ let trial = async () => {
     await page.goto('https://bra.ifsp.edu.br/servidores')
 
     const result = await page.evaluate(() => {
-        const servidores = []
+        const servidores = {}
         let lattes, nome, email
         document
             .querySelectorAll(
@@ -28,7 +28,7 @@ let trial = async () => {
                     }
                     if (lattes[2] && lattes[2].indexOf('lattes.cnpq') !== -1) {
                         lattes = lattes[lattes.length - 1]
-                        servidores.push({ lattes, nome, email })
+                        servidores[lattes] = email
                     }
                 }
             })
@@ -42,8 +42,8 @@ let trial = async () => {
 
 const getProfList = () =>
     trial().then((value) => {
-        let justId = ''
-        value.map((prof) => (justId += `${prof.lattes},`))
+        let justId = Object.keys(value).join(',')
+
         fs.writeFileSync(
             './src/listProfLattesID.json',
             JSON.stringify(value),
