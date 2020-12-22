@@ -47,11 +47,13 @@ module.exports = (app) => {
     const unfavorite = async (req, res) => {
         try {
             const { email } = req.user.payload
-            await favoriteTeacher({
+            console.log(req.user.payload)
+            console.log(req.body)
+            await unfavoriteTeacher({
                 ...req.body,
                 userInfo: { email },
             })
-            return res.status(200).json(result)
+            return res.status(200).json({message: "success"})
         } catch (e) {
             const { message } = e
             return res.status(500).json(message)
@@ -60,7 +62,8 @@ module.exports = (app) => {
 
     const getFavorites = async (req, res) => {
         try {
-            const result = await findFavoriteTeacher(req.query)
+            const { email } = req.user.payload;
+            const result = await findFavoriteTeacher(email)
             return res.status(200).json(result)
         } catch (e) {
             const { message } = e

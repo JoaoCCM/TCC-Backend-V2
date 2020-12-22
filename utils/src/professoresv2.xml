@@ -3,7 +3,7 @@
   <pesquisador id="8769520534974261">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4138421H2</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4138421H2</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Adilson de Souza Cândido</nome_completo>
       <nome_citacao_bibliografica>CÂNDIDO, A. S.;CANDIDO, A. S.;DE SOUZA CANDIDO, ADILSON;CANDIDO, ADILSON SOUZA</nome_citacao_bibliografica>
@@ -738,7 +738,7 @@
   <pesquisador id="8441246420907041">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8191101A6</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K8191101A6</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Alessandra Casimiro de Souza Matricaldi</nome_completo>
       <nome_citacao_bibliografica>MATRICALDI, A. C. S.</nome_citacao_bibliografica>
@@ -795,7 +795,7 @@
   <pesquisador id="2956539710510010">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4214198D6</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4214198D6</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Alexandre Tomazati Oliveira</nome_completo>
       <nome_citacao_bibliografica>OLIVEIRA, A. T.;OLIVEIRA, ALEXANDRE TOMAZATI</nome_citacao_bibliografica>
@@ -973,7 +973,7 @@
   <pesquisador id="2557440893085062">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4782914J0</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4782914J0</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Ana Cristina Gobbo César</nome_completo>
       <nome_citacao_bibliografica>CÉSAR, A. C. G.;César, Ana Cristina Gobbo</nome_citacao_bibliografica>
@@ -1294,8 +1294,8 @@
           <doi>http://dx.doi.org/10.4136/ambi-agua.1592</doi>
           <titulo>Efeitos de poluentes do ar e doenças respiratórias utilizando dados estimados por modelo matemático</titulo>
           <autores>ROMAN, V. V. L. ; CARVALHO JUNIOR, J. A. ; NASCIMENTO, L. F. C. ; CÉSAR, A. C. G.</autores>
-          <revista>Revista Ambiente & Água</revista>
-          <volume>Revista Ambiente & Água</volume>
+          <revista>Revista Ambiente &amp; Água</revista>
+          <volume>Revista Ambiente &amp; Água</volume>
           <paginas>825-831</paginas>
           <numero></numero>
           <ano>2015</ano>
@@ -4532,7 +4532,7 @@
   <pesquisador id="0566875677798861">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4380171H5</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4380171H5</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Ana Paula Müller Giancoli</nome_completo>
       <nome_citacao_bibliografica>GIANCOLI, A. P. M.</nome_citacao_bibliografica>
@@ -4905,7 +4905,7 @@
   <pesquisador id="9410220942954933">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4973002Y2</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4973002Y2</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Anderson Caldas Cailleaux</nome_completo>
       <nome_citacao_bibliografica>CAILLEAUX, A. C.</nome_citacao_bibliografica>
@@ -4950,7 +4950,7 @@
   <pesquisador id="1814982882268094">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4361105D3</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4361105D3</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>André Luis Maciel Leme</nome_completo>
       <nome_citacao_bibliografica>LEME, ANDRÉ;LEME, ANDRÉ LUIS MACIEL</nome_citacao_bibliografica>
@@ -5078,7 +5078,7 @@
   <pesquisador id="8106581881944311">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4703486Z9</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4703486Z9</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Andre Marcelo Panhan</nome_completo>
       <nome_citacao_bibliografica>PANHAN, A. M.;PANHAN, ANDRÉ MARCELO</nome_citacao_bibliografica>
@@ -5636,7 +5636,7 @@
   <pesquisador id="7841337503464922">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4227382H9</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4227382H9</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Ânteni de Sousa Belchior</nome_completo>
       <nome_citacao_bibliografica>BELCHIOR, Â. S.</nome_citacao_bibliografica>
@@ -5728,7 +5728,7 @@
   <pesquisador id="5738981204081488">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8066709D1</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K8066709D1</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Ariana Paula da Costa</nome_completo>
       <nome_citacao_bibliografica>COSTA, A. P.</nome_citacao_bibliografica>
@@ -5755,7 +5755,7 @@
   <pesquisador id="2466155671795598">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4462994H7</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4462994H7</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Aysa Mara Roveri Arcanjo</nome_completo>
       <nome_citacao_bibliografica>ARCANJO, A. M. R.</nome_citacao_bibliografica>
@@ -6002,7 +6002,7 @@
   <pesquisador id="4287711222508230">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4297558Z4</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4297558Z4</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Camila Fátima dos Santos</nome_completo>
       <nome_citacao_bibliografica>SANTOS, C. F.</nome_citacao_bibliografica>
@@ -6099,7 +6099,7 @@
   <pesquisador id="5852071860398101">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4269482A1</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4269482A1</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>César Alexandre Silva Lima</nome_completo>
       <nome_citacao_bibliografica>LIMA, César Alexandre Silva</nome_citacao_bibliografica>
@@ -6367,7 +6367,7 @@
   <pesquisador id="6246109453810593">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4778626A5</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4778626A5</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Clayton Eduardo dos Santos</nome_completo>
       <nome_citacao_bibliografica>SANTOS, Clayton Eduardo dos;SANTOS, C. E.;DOS SANTOS, CLAYTON EDUARDO</nome_citacao_bibliografica>
@@ -6894,7 +6894,7 @@
   <pesquisador id="3853867801869985">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4525445E8</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4525445E8</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Cristian da Rocha Duarte</nome_completo>
       <nome_citacao_bibliografica>DUARTE, C. R.</nome_citacao_bibliografica>
@@ -7116,7 +7116,7 @@
   <pesquisador id="8791614680381314">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4697895Y7</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4697895Y7</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Cristiano Santana Cunha de Oliveira</nome_completo>
       <nome_citacao_bibliografica>OLIVEIRA, C. S. C.</nome_citacao_bibliografica>
@@ -7208,7 +7208,7 @@
   <pesquisador id="8990481232462369">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4204833D2</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4204833D2</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Cristina Correa de Oliveira</nome_completo>
       <nome_citacao_bibliografica>OLIVEIRA, C. C.;OLIVEIRA, CRISTINA;DE OLIVEIRA, CRISTINA CORREA;de Oliveira, Cristina Corrêa</nome_citacao_bibliografica>
@@ -7361,8 +7361,8 @@
           <doi>http://dx.doi.org/10.1186/1758-5996-7-s1-a254</doi>
           <titulo>Assistive technologies for diabetes care: a personalized software for progressive foot and ankle home exercises</titulo>
           <autores>SARTOR, CRISTINA ; FERREIRA, JANE ; OLIVEIRA, CRISTINA ; DE AZEVEDO FIGUEIREDO, DANIEL ; CRUZ, RAFAEL ; DE CAMARGO NEVES SACCO, ISABEL</autores>
-          <revista>Diabetology &amp; Metabolic Syndrome</revista>
-          <volume>Diabetology &amp; Metabolic Syndrome</volume>
+          <revista>Diabetology &amp;amp; Metabolic Syndrome</revista>
+          <volume>Diabetology &amp;amp; Metabolic Syndrome</volume>
           <paginas>A254</paginas>
           <numero></numero>
           <ano>2015</ano>
@@ -8779,7 +8779,7 @@
   <pesquisador id="5486255619537275">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8170980Y9</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K8170980Y9</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Damásio Sacrini</nome_completo>
       <nome_citacao_bibliografica>SACRINI, D.</nome_citacao_bibliografica>
@@ -8944,7 +8944,7 @@
   <pesquisador id="9116508869778205">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4416195D8</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4416195D8</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Daniel Tebaldi Santos</nome_completo>
       <nome_citacao_bibliografica>SANTOS, D. T.</nome_citacao_bibliografica>
@@ -9212,7 +9212,7 @@
   <pesquisador id="3253651396438840">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4634666D0</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4634666D0</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Diana Terezinha Amaro</nome_completo>
       <nome_citacao_bibliografica>AMARO, D. T.</nome_citacao_bibliografica>
@@ -9624,7 +9624,7 @@
   <pesquisador id="9010440855059868">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4211644E5</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4211644E5</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Eder José da Costa Sacconi</nome_completo>
       <nome_citacao_bibliografica>SACCONI, E. J. C.</nome_citacao_bibliografica>
@@ -9784,7 +9784,7 @@
   <pesquisador id="6820760203514077">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8113395T4</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K8113395T4</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Edice Ramos de Camargo Aguiar</nome_completo>
       <nome_citacao_bibliografica>AGUIAR, E. R. C.</nome_citacao_bibliografica>
@@ -9867,7 +9867,7 @@
   <pesquisador id="8991027037351508">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4767566A2</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4767566A2</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Edilson Rosa Barbosa de Jesus</nome_completo>
       <nome_citacao_bibliografica>JESUS, E. R. B.;E. R. B. JESUS;BARBOSA DE JESUS, EDILSON ROSA</nome_citacao_bibliografica>
@@ -10744,7 +10744,7 @@
   <pesquisador id="2814954391324797">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4771942P6</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4771942P6</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Eliane Andreoli Gorgonio dos Santos</nome_completo>
       <nome_citacao_bibliografica>ANDREOLI-SANTOS,E.</nome_citacao_bibliografica>
@@ -11068,7 +11068,7 @@
   <pesquisador id="7305431752431773">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4761773U5</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4761773U5</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Elisandra Aparecida Alves da Silva</nome_completo>
       <nome_citacao_bibliografica>SILVA, E. A. A.</nome_citacao_bibliografica>
@@ -11917,7 +11917,7 @@
   <pesquisador id="2643891752823237">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8189745U1</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K8189745U1</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Emilio Carlos Rodrigues</nome_completo>
       <nome_citacao_bibliografica>RODRIGUES, E. C.</nome_citacao_bibliografica>
@@ -12112,7 +12112,7 @@
   <pesquisador id="2204430682949157">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4138687Y4</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4138687Y4</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Enzo Basilio Roberto</nome_completo>
       <nome_citacao_bibliografica>ROBERTO, Enzo Basilio;ROBERTO, E. B.;ROBERTO, Enzo B.</nome_citacao_bibliografica>
@@ -12570,7 +12570,7 @@
   <pesquisador id="6817246714098511">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4412975J2</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4412975J2</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Enzo Gaudino Mendes</nome_completo>
       <nome_citacao_bibliografica>MENDES, E. G.</nome_citacao_bibliografica>
@@ -12795,7 +12795,7 @@
   <pesquisador id="4034666398076222">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4441087T7</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4441087T7</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Erica Fernanda da Cruz</nome_completo>
       <nome_citacao_bibliografica>CRUZ, E. F.</nome_citacao_bibliografica>
@@ -13213,7 +13213,7 @@
   <pesquisador id="4135458990570875">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8493998H2</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K8493998H2</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Fabiana Natalia Macedo de Camargo</nome_completo>
       <nome_citacao_bibliografica>CAMARGO, F. N. M.</nome_citacao_bibliografica>
@@ -13247,7 +13247,7 @@
   <pesquisador id="8976791755900010">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4705253Y6</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4705253Y6</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Flavio Cezar Amate</nome_completo>
       <nome_citacao_bibliografica>AMATE, F.C.;Amate, F. C.;Amate, Flávio Cezar;Flavio Cezar Amate;AMATE, FLAVIO CEZAR</nome_citacao_bibliografica>
@@ -13367,8 +13367,8 @@
           <doi>http://dx.doi.org/10.1016/j.medengphy.2020.01.001</doi>
           <titulo>A computerized tool to assess reading skills of students with motor impairment</titulo>
           <autores>BISSACO, MARCIA APARECIDA SILVA ; FRERE, ANNIE FRANCE ; BISSACO, LUIZ FERNANDO ; MANRIQUE, ANA LUCIA ; DIRANI, ELY ; RUGERRO, NIUBE ; AMATE, FLAVIO CEZAR</autores>
-          <revista>MEDICAL ENGINEERING & PHYSICS</revista>
-          <volume>MEDICAL ENGINEERING & PHYSICS</volume>
+          <revista>MEDICAL ENGINEERING &amp; PHYSICS</revista>
+          <volume>MEDICAL ENGINEERING &amp; PHYSICS</volume>
           <paginas>31-42</paginas>
           <numero></numero>
           <ano>2020</ano>
@@ -14253,7 +14253,7 @@
   <pesquisador id="6491042492628997">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4768455Y1</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4768455Y1</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Geraldo Creci Filho</nome_completo>
       <nome_citacao_bibliografica>CRECI, G.;CRECI, GERALDO;GERALDO CRECI;G. CRECI</nome_citacao_bibliografica>
@@ -14637,7 +14637,7 @@
   <pesquisador id="3647493704547548">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4728240H6</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4728240H6</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Iara Leme Russo Cury</nome_completo>
       <nome_citacao_bibliografica>RUSSO, I. L.;Russo Cury, I.L.;CURY, I.L.R.</nome_citacao_bibliografica>
@@ -15428,7 +15428,7 @@
   <pesquisador id="1251450318945989">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4707033Z8</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4707033Z8</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Iracema Hiroko Iramina Arashiro</nome_completo>
       <nome_citacao_bibliografica>ARASHIRO, I. H. I.</nome_citacao_bibliografica>
@@ -15708,7 +15708,7 @@
   <pesquisador id="7437590156111266">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4772744H0</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4772744H0</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Jefferson de Souza Pinto</nome_completo>
       <nome_citacao_bibliografica>PINTO, Jefferson S.;PINTO, Jefferson Souza;SOUZA PINTO, Jefferson de;PINTO, Jefferson de Souza;PINTO, J. Souza;PINTO, J. S.</nome_citacao_bibliografica>
@@ -15948,8 +15948,8 @@
           <doi>http://dx.doi.org/10.14488/BJOPM.2019.v16.n2.a9</doi>
           <titulo>Blockchain Based MFA Solution: the use of hydro raindrop MFA for information security on WordPress websites</titulo>
           <autores>PINTO, Jefferson de Souza; CARDOSO, J. A. A. ; ISHIZU, F. T. ; LIMA, J. T.</autores>
-          <revista>Brazilian Journal of Operations & Production Management</revista>
-          <volume>Brazilian Journal of Operations & Production Management</volume>
+          <revista>Brazilian Journal of Operations &amp; Production Management</revista>
+          <volume>Brazilian Journal of Operations &amp; Production Management</volume>
           <paginas>281-293</paginas>
           <numero></numero>
           <ano>2019</ano>
@@ -15998,18 +15998,18 @@
           <doi>http://dx.doi.org/10.14488/bjopm.2018.v15.n4.a14</doi>
           <titulo>Business model innovation influencing factors: an integrative literature review</titulo>
           <autores>PINTO, Jefferson de Souza; FRANCO, M. M. V. ; MINATOGAWA, V. L. F. ; BATOCCHIO, A.</autores>
-          <revista>Brazilian Journal of Operations & Production Management</revista>
-          <volume>Brazilian Journal of Operations & Production Management</volume>
+          <revista>Brazilian Journal of Operations &amp; Production Management</revista>
+          <volume>Brazilian Journal of Operations &amp; Production Management</volume>
           <paginas>610-617</paginas>
           <numero></numero>
           <ano>2018</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.22409/s&g.v12i2.595</doi>
+          <doi>http://dx.doi.org/10.22409/s&amp;g.v12i2.595</doi>
           <titulo>Impact of Systemic Management on Project Development: a study in a software house</titulo>
           <autores>PINTO, Jefferson de Souza; FIGUEIREDO, D. A. ; CRUZ, R. B. L. ; BRACHINI, T. V. O. ; OLIVEIRA, P. J.</autores>
-          <revista>Revista Eletronica Sistemas & Gestão</revista>
-          <volume>Revista Eletronica Sistemas & Gestão</volume>
+          <revista>Revista Eletronica Sistemas &amp; Gestão</revista>
+          <volume>Revista Eletronica Sistemas &amp; Gestão</volume>
           <paginas>136-145</paginas>
           <numero></numero>
           <ano>2017</ano>
@@ -18082,7 +18082,7 @@
   <pesquisador id="7267977895420386">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8495068A9</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K8495068A9</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>João Júnior Marques de Lima</nome_completo>
       <nome_citacao_bibliografica>LIMA, J. J. M.</nome_citacao_bibliografica>
@@ -18151,7 +18151,7 @@
   <pesquisador id="0477788198290554">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4788895J3</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4788895J3</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>João Roberto Moro</nome_completo>
       <nome_citacao_bibliografica>MORO, J. R.;MORO, J;Moro, João Roberto;Moro, J.R.;Moro, J R;MORO, J R;Moro J R;MORO, JOAO ROBERTO;MORO, J.;MORO, JOÃO;MORO, JOAO</nome_citacao_bibliografica>
@@ -18568,8 +18568,8 @@
           <doi>http://dx.doi.org/10.1016/j.surfcoat.2007.02.002</doi>
           <titulo>Comparative study of diamond growth on tungsten wires by using methane and graphite as the carbon source</titulo>
           <autores>MELO, L. L. ; MORO, J. R. ; CASTRO, R. M. ; CORAT, E. J. ; AIROLDI, V. J. T.</autores>
-          <revista>SURFACE & COATINGS TECHNOLOGY</revista>
-          <volume>SURFACE & COATINGS TECHNOLOGY</volume>
+          <revista>SURFACE &amp; COATINGS TECHNOLOGY</revista>
+          <volume>SURFACE &amp; COATINGS TECHNOLOGY</volume>
           <paginas>7382-7386</paginas>
           <numero></numero>
           <ano>2007</ano>
@@ -18758,8 +18758,8 @@
           <doi>http://dx.doi.org/10.1016/S0257-8972(98)00590-8</doi>
           <titulo>Cylindrical CVD Diamond as a High Performance Small Abrading Device</titulo>
           <autores>AIROLDI, V. J. T. ; MORO, J. R. ; CORAT, E. J. ; GOULART, E. C. ; SILVA, A. P. ; LEITE, N. F.</autores>
-          <revista>Surface & Coatings Technology</revista>
-          <volume>Surface & Coatings Technology</volume>
+          <revista>Surface &amp; Coatings Technology</revista>
+          <volume>Surface &amp; Coatings Technology</volume>
           <paginas>437-441</paginas>
           <numero></numero>
           <ano>1998</ano>
@@ -21740,7 +21740,7 @@
   <pesquisador id="8377008795343451">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4459802T6</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4459802T6</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Jonas Gonçalves Rossi</nome_completo>
       <nome_citacao_bibliografica>ROSSI, J. G.</nome_citacao_bibliografica>
@@ -21771,7 +21771,7 @@
   <pesquisador id="0046989480783080">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4762463Z8</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4762463Z8</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Jose Erick de Souza Lima</nome_completo>
       <nome_citacao_bibliografica>LIMA, J. E. S.;DE SOUZA LIMA, JOSE ERICK</nome_citacao_bibliografica>
@@ -22050,7 +22050,7 @@
   <pesquisador id="7568564906196697">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4796558P2</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4796558P2</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Jose Galhardo Leite de Moraes</nome_completo>
       <nome_citacao_bibliografica>MORAES, J. G. L.</nome_citacao_bibliografica>
@@ -22179,7 +22179,7 @@
   <pesquisador id="2194989542047907">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4244576J0</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4244576J0</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>José Orlando Balastrero Junior</nome_completo>
       <nome_citacao_bibliografica>BALASTRERO JUNIOR, J. O.;BALASTRERO, JOSE ORLANDO;BALASTRERO, JOSÉ ORLANDO</nome_citacao_bibliografica>
@@ -22536,7 +22536,7 @@
   <pesquisador id="3243857721603805">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4239859Z3</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4239859Z3</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Josias Falararo Pagotto</nome_completo>
       <nome_citacao_bibliografica>PAGOTTO, J. F.;Pagotto, Josias Falararo;PAGOTTO, JOSIAS F.;PAGOTTO, J.F.</nome_citacao_bibliografica>
@@ -22614,8 +22614,8 @@
           <doi>http://dx.doi.org/10.1016/j.surfcoat.2016.01.046</doi>
           <titulo>Multilayers of PAni/n-TiO2 and PAni on carbon steel and welded carbon steel for corrosion protection</titulo>
           <autores>PAGOTTO, J.F.; RECIO, F.J. ; MOTHEO, A.J. ; HERRASTI, P.</autores>
-          <revista>SURFACE & COATINGS TECHNOLOGY</revista>
-          <volume>SURFACE & COATINGS TECHNOLOGY</volume>
+          <revista>SURFACE &amp; COATINGS TECHNOLOGY</revista>
+          <volume>SURFACE &amp; COATINGS TECHNOLOGY</volume>
           <paginas>23-28</paginas>
           <numero></numero>
           <ano>2016</ano>
@@ -22897,7 +22897,7 @@
   <pesquisador id="6028133231859739">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4209905A1</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4209905A1</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Karin Rumiko Kagi</nome_completo>
       <nome_citacao_bibliografica>KAGI, K. R.</nome_citacao_bibliografica>
@@ -23284,7 +23284,7 @@
   <pesquisador id="1132670772678230">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4479264Z6</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4479264Z6</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Karla Cristiny Moraes da Silva</nome_completo>
       <nome_citacao_bibliografica>SILVA, K. C. M.</nome_citacao_bibliografica>
@@ -23505,7 +23505,7 @@
   <pesquisador id="1449845625874153">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4290793A1</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4290793A1</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Kauê Reis dos Santos</nome_completo>
       <nome_citacao_bibliografica>SANTOS, K. R.</nome_citacao_bibliografica>
@@ -23601,7 +23601,7 @@
   <pesquisador id="8993138737805647">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4746724Y9</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4746724Y9</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Kelly Cristina de Oliveira</nome_completo>
       <nome_citacao_bibliografica>Kelly Cristina de Oliveira</nome_citacao_bibliografica>
@@ -23681,8 +23681,8 @@
           <doi></doi>
           <titulo>O RACISMO NOS ANÚNCI OS DE EMPREGO DO SÉC ULO XX</titulo>
           <autores>Kelly Cristina de Oliveira; PIMENTA, S. M. O.</autores>
-          <revista>EID&A - Revista Eletrônica de Estudos Integrados em Discurso e Argumentação</revista>
-          <volume>EID&A - Revista Eletrônica de Estudos Integrados em Discurso e Argumentação</volume>
+          <revista>EID&amp;A - Revista Eletrônica de Estudos Integrados em Discurso e Argumentação</revista>
+          <volume>EID&amp;A - Revista Eletrônica de Estudos Integrados em Discurso e Argumentação</volume>
           <paginas>381-399</paginas>
           <numero></numero>
           <ano>2016</ano>
@@ -23691,8 +23691,8 @@
           <doi></doi>
           <titulo>Resenha de Perspetivismo e Argumentação, de Rui Alexandre Grácio</titulo>
           <autores>Moisés Olímpio Ferreira ; Kelly Cristina de Oliveira</autores>
-          <revista>EID&A - Revista Eletrônica de Estudos Integrados em Discurso e Argumentação</revista>
-          <volume>EID&A - Revista Eletrônica de Estudos Integrados em Discurso e Argumentação</volume>
+          <revista>EID&amp;A - Revista Eletrônica de Estudos Integrados em Discurso e Argumentação</revista>
+          <volume>EID&amp;A - Revista Eletrônica de Estudos Integrados em Discurso e Argumentação</volume>
           <paginas>288-295</paginas>
           <numero></numero>
           <ano>2014</ano>
@@ -23701,8 +23701,8 @@
           <doi></doi>
           <titulo>Novos Caminhos da Linguística Textual: reflexões teóricas sobre o conceito de tradições discursivas e os estudos diacrônicos no português paulista a partir de alguns gêneros impressos do século XIX e XX</titulo>
           <autores>Maria Lúcia C.V.O. Andrade ; Fábio Fernando Lima ; Kelly Cristina de Oliveira ; Paulo Roberto Gonçalves Segundo ; Rafaela Baracat Ribeiro</autores>
-          <revista>EID&A - Revista Eletrônica de Estudos Integrados em Discurso e Argumentação</revista>
-          <volume>EID&A - Revista Eletrônica de Estudos Integrados em Discurso e Argumentação</volume>
+          <revista>EID&amp;A - Revista Eletrônica de Estudos Integrados em Discurso e Argumentação</revista>
+          <volume>EID&amp;A - Revista Eletrônica de Estudos Integrados em Discurso e Argumentação</volume>
           <paginas>17-49</paginas>
           <numero></numero>
           <ano>2011</ano>
@@ -24190,7 +24190,7 @@
   <pesquisador id="0394231670222232">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4635026H3</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4635026H3</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Leandro Piazzon Corrêa</nome_completo>
       <nome_citacao_bibliografica>CORRÊA, L. P.</nome_citacao_bibliografica>
@@ -24315,7 +24315,7 @@
   <pesquisador id="8922761914116551">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4751686T4</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4751686T4</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Leticia Souza Netto Brandi</nome_completo>
       <nome_citacao_bibliografica>BRANDI, Leticia Souza Netto;BRANDI, L S N;NETTO, L F S;NETTO, Letícia Ferreira de Souza;SOUZA NETTO, Letícia F;BRANDI, LETÍCIA SOUZA NETTO</nome_citacao_bibliografica>
@@ -24987,7 +24987,7 @@
   <pesquisador id="2259956816336032">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4525821T0</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4525821T0</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Lidiane Cristina da Silva</nome_completo>
       <nome_citacao_bibliografica>SILVA, L. C.;Lidiane C. Silva;LIDIANE CRISTINA DA SILVA</nome_citacao_bibliografica>
@@ -25320,7 +25320,7 @@
   <pesquisador id="5716189822370047">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4791918J4</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4791918J4</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Lilian Káram Parente Cury Spiller</nome_completo>
       <nome_citacao_bibliografica>SPILLER, Lílian K.P.C.;SPILLER, Lílian</nome_citacao_bibliografica>
@@ -25518,7 +25518,7 @@
   <pesquisador id="2883094594167323">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4278927P1</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4278927P1</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Luana Ferrarotto</nome_completo>
       <nome_citacao_bibliografica>FERRAROTTO, L.;FERRAROTTO, LUANA</nome_citacao_bibliografica>
@@ -26084,7 +26084,7 @@
   <pesquisador id="8755104082298597">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4706647P6</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4706647P6</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Luciano Bernardes de Paula</nome_completo>
       <nome_citacao_bibliografica>DE PAULA, L. B.;de Paula, Luciano B.;Paula, Luciano Bernardes;DE PAULA, L.B.;Paula, L. B;Paula, L. B. de</nome_citacao_bibliografica>
@@ -26976,7 +26976,7 @@
   <pesquisador id="4974703101215208">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4771284E0</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4771284E0</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Luciano Guimarães Mendes</nome_completo>
       <nome_citacao_bibliografica>MENDES, L. G.</nome_citacao_bibliografica>
@@ -27182,7 +27182,7 @@
   <pesquisador id="8785113124415152">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8137936E7</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K8137936E7</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Luciene Angélica Cardoso Valle</nome_completo>
       <nome_citacao_bibliografica>VALLE, L. A. C.</nome_citacao_bibliografica>
@@ -27320,7 +27320,7 @@
   <pesquisador id="9893499939935333">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4219281E1</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4219281E1</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Luis Vanderlei Torres</nome_completo>
       <nome_citacao_bibliografica>TORRES, L. V.;L.V. TORRES;Torres, Luis Vanderlei</nome_citacao_bibliografica>
@@ -27967,7 +27967,7 @@
   <pesquisador id="3529280084215014">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4776134H7</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4776134H7</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Luiz Fernando Tibaldi Kurahassi</nome_completo>
       <nome_citacao_bibliografica>KURAHASSI, L. F. T.</nome_citacao_bibliografica>
@@ -28410,7 +28410,7 @@
   <pesquisador id="1335485763929476">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4415622U8</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4415622U8</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Luiz Gustavo Diniz de Oliveira Veras</nome_completo>
       <nome_citacao_bibliografica>VERAS, L. G.;VÉRAS, LUIZ GDO;VÉRAS, LUIZ GUSTAVO;VERAS, LUIZ GUSTAVO</nome_citacao_bibliografica>
@@ -28654,7 +28654,7 @@
   <pesquisador id="2977493243771030">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4330288J9</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4330288J9</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Luiz Nelson Viana Filho</nome_completo>
       <nome_citacao_bibliografica>VIANA FILHO, L. N.</nome_citacao_bibliografica>
@@ -28701,7 +28701,7 @@
   <pesquisador id="2187263581954922">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4206602Z9</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4206602Z9</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Marcos Alexandre Fernandes</nome_completo>
       <nome_citacao_bibliografica>FERNANDES, M. A.</nome_citacao_bibliografica>
@@ -29239,7 +29239,7 @@
   <pesquisador id="3735508559898531">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4213292P7</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4213292P7</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Marcos Tarcisio Florindo</nome_completo>
       <nome_citacao_bibliografica>FLORINDO, M. T.</nome_citacao_bibliografica>
@@ -29388,8 +29388,8 @@
           <doi></doi>
           <titulo>A grande repressão de 1932 em São Paulo</titulo>
           <autores>FLORINDO, M. T</autores>
-          <revista>Revista Brasileira de História & Ciências Sociais</revista>
-          <volume>Revista Brasileira de História & Ciências Sociais</volume>
+          <revista>Revista Brasileira de História &amp; Ciências Sociais</revista>
+          <volume>Revista Brasileira de História &amp; Ciências Sociais</volume>
           <paginas>291-316</paginas>
           <numero></numero>
           <ano>2012</ano>
@@ -30432,7 +30432,7 @@
   <pesquisador id="2978521152562858">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4361786U0</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4361786U0</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Marina Mitie Gishifu Osio</nome_completo>
       <nome_citacao_bibliografica>OSIO, M. M. G.</nome_citacao_bibliografica>
@@ -30706,7 +30706,7 @@
   <pesquisador id="4505115846383366">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4784391D9</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4784391D9</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Mauricio Costa Carreira</nome_completo>
       <nome_citacao_bibliografica>CARREIRA, M. C.;CARREIRA, M. COSTA</nome_citacao_bibliografica>
@@ -31028,7 +31028,7 @@
   <pesquisador id="0563624709771357">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4201702P2</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4201702P2</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Mayara Fernanda Oliveira Lima Rodrigues</nome_completo>
       <nome_citacao_bibliografica>LIMA, M. F. O.</nome_citacao_bibliografica>
@@ -31189,7 +31189,7 @@
   <pesquisador id="8723593022548044">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8336427A5</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K8336427A5</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Murilo José de Carvalho</nome_completo>
       <nome_citacao_bibliografica>CARVALHO, M. J.</nome_citacao_bibliografica>
@@ -31302,7 +31302,7 @@
   <pesquisador id="1736670287663462">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4744560A6</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4744560A6</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Orlando Leonardo Berenguel</nome_completo>
       <nome_citacao_bibliografica>BERENGUEL, O.</nome_citacao_bibliografica>
@@ -32085,7 +32085,7 @@
   <pesquisador id="3223586317047100">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8243450U1</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K8243450U1</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Pedro Luis Calheiros da Silva</nome_completo>
       <nome_citacao_bibliografica>SILVA, P. L. C.</nome_citacao_bibliografica>
@@ -32302,7 +32302,7 @@
   <pesquisador id="1659079912764277">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8709205Y9</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K8709205Y9</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Rafael Prearo Lima</nome_completo>
       <nome_citacao_bibliografica>PREARO-LIMA, R.;LIMA, R. P.</nome_citacao_bibliografica>
@@ -32455,7 +32455,7 @@
           <ano>2019</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.26512/l&s.v19i2.16897</doi>
+          <doi>http://dx.doi.org/10.26512/l&amp;s.v19i2.16897</doi>
           <titulo>(Des)construção da beleza feminina: ethos discursivo em campanha de Dove</titulo>
           <autores>PREARO-LIMA, R.; IORIO, P. L.</autores>
           <revista>CADERNOS DE LINGUAGEM E SOCIEDADE</revista>
@@ -33629,7 +33629,7 @@
   <pesquisador id="6753255640679957">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4213678Z8</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4213678Z8</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Ricardo Alexandre Alves Pereira</nome_completo>
       <nome_citacao_bibliografica>PEREIRA, R. A. A.</nome_citacao_bibliografica>
@@ -33776,7 +33776,7 @@
   <pesquisador id="4236236725046882">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4703414T9</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4703414T9</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Ricardo Micaroni</nome_completo>
       <nome_citacao_bibliografica>MICARONI, R.</nome_citacao_bibliografica>
@@ -33838,8 +33838,8 @@
           <doi></doi>
           <titulo>Influence of the direction and flow rate of the cutting fluid on tool life in turning process of AISI 1045 steel</titulo>
           <autores>DINIZ, A. E. ; MICARONI, R.</autores>
-          <revista>International Journal of Machine Tools & Manufacture</revista>
-          <volume>International Journal of Machine Tools & Manufacture</volume>
+          <revista>International Journal of Machine Tools &amp; Manufacture</revista>
+          <volume>International Journal of Machine Tools &amp; Manufacture</volume>
           <paginas>247-254</paginas>
           <numero></numero>
           <ano>2007</ano>
@@ -33868,8 +33868,8 @@
           <doi></doi>
           <titulo>Cutting conditions for finish turning process aiming: the use of dry</titulo>
           <autores>MICARONI, R.; DINIZ, A. E.</autores>
-          <revista>International Journal of Machine Tools & Manufacture</revista>
-          <volume>International Journal of Machine Tools & Manufacture</volume>
+          <revista>International Journal of Machine Tools &amp; Manufacture</revista>
+          <volume>International Journal of Machine Tools &amp; Manufacture</volume>
           <paginas>899-904</paginas>
           <numero>8</numero>
           <ano>2002</ano>
@@ -33950,7 +33950,7 @@
   <pesquisador id="1313317130768044">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4237977E1</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4237977E1</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Rodrigo Rafael Gomes</nome_completo>
       <nome_citacao_bibliografica>GOMES, R. R.</nome_citacao_bibliografica>
@@ -34614,7 +34614,7 @@
   <pesquisador id="1331526314501568">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4775914U8</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4775914U8</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Rosalvo Soares Cavalcante Filho</nome_completo>
       <nome_citacao_bibliografica>CAVALCANTE FILHO, R. S.</nome_citacao_bibliografica>
@@ -34701,7 +34701,7 @@
   <pesquisador id="3253980429514948">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4775869E5</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4775869E5</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Rubens Pantano Filho</nome_completo>
       <nome_citacao_bibliografica>PANTANO FILHO, R.</nome_citacao_bibliografica>
@@ -34855,8 +34855,8 @@
           <doi></doi>
           <titulo>Poli (e-caprolactona) - PCL - e suas blendas com amido: biodegradação em composto orgânico</titulo>
           <autores>PANTANO FILHO, R.; ROSA, Derval dos Santos</autores>
-          <revista>Diálogos & Parcerias</revista>
-          <volume>Diálogos & Parcerias</volume>
+          <revista>Diálogos &amp; Parcerias</revista>
+          <volume>Diálogos &amp; Parcerias</volume>
           <paginas>42-52</paginas>
           <numero></numero>
           <ano>2005</ano>
@@ -34865,8 +34865,8 @@
           <doi></doi>
           <titulo>A Gestão de Custos para Sistemas de Qualidade</titulo>
           <autores>PANTANO FILHO, R</autores>
-          <revista>Diálogos & Parcerias</revista>
-          <volume>Diálogos & Parcerias</volume>
+          <revista>Diálogos &amp; Parcerias</revista>
+          <volume>Diálogos &amp; Parcerias</volume>
           <paginas>24-31</paginas>
           <numero></numero>
           <ano>2004</ano>
@@ -34875,8 +34875,8 @@
           <doi></doi>
           <titulo>A Qualidade de Ensino e o Perfil dos Alunos do Curso de Administração da Faculdade Max Planck</titulo>
           <autores>PANTANO FILHO, R.; ARAUJO, E. A.</autores>
-          <revista>Diálogos & Parcerias</revista>
-          <volume>Diálogos & Parcerias</volume>
+          <revista>Diálogos &amp; Parcerias</revista>
+          <volume>Diálogos &amp; Parcerias</volume>
           <paginas>29-35</paginas>
           <numero>1</numero>
           <ano>2004</ano>
@@ -36705,7 +36705,7 @@
   <pesquisador id="5538791567936101">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4361237E6</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4361237E6</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Sandra Cristina Martins de Oliveira</nome_completo>
       <nome_citacao_bibliografica>OLIVEIRA, S. C. M.</nome_citacao_bibliografica>
@@ -36820,7 +36820,7 @@
   <pesquisador id="8157598635581429">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4327898A0</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4327898A0</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Sérgio Ricardo Pacheco</nome_completo>
       <nome_citacao_bibliografica>PACHECO, S. R.</nome_citacao_bibliografica>
@@ -37063,7 +37063,7 @@
   <pesquisador id="1814998858764422">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4755114J1</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4755114J1</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Sidney Domingues</nome_completo>
       <nome_citacao_bibliografica>DOMINGUES, Sidney</nome_citacao_bibliografica>
@@ -37448,7 +37448,7 @@
   <pesquisador id="6197153958520971">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8208059T5</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K8208059T5</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Silvana Camargo de Castro</nome_completo>
       <nome_citacao_bibliografica>CASTRO, S. C.</nome_citacao_bibliografica>
@@ -37509,7 +37509,7 @@
   <pesquisador id="1458318785920582">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4337074E7</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4337074E7</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Talita de Paula Cypriano de Souza</nome_completo>
       <nome_citacao_bibliografica>SOUZA, T. P. C.</nome_citacao_bibliografica>
@@ -37939,7 +37939,7 @@
   <pesquisador id="9634610962452041">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4306459Z6</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4306459Z6</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Tiago Minoru Taguchi</nome_completo>
       <nome_citacao_bibliografica>TAGUCHI, T. M.</nome_citacao_bibliografica>
@@ -37986,7 +37986,7 @@
   <pesquisador id="5837032243650002">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4708607T7</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4708607T7</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Túlio César Rodrigues</nome_completo>
       <nome_citacao_bibliografica>RODRIGUES, T. C.;RODRIGUES, TÚLIO CÉSAR</nome_citacao_bibliografica>
@@ -38118,7 +38118,7 @@
   <pesquisador id="4290518050132385">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4338310A7</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4338310A7</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Tulio Ferneda</nome_completo>
       <nome_citacao_bibliografica>FERNEDA, T.;FERNEDA, TÚLIO</nome_citacao_bibliografica>
@@ -38346,7 +38346,7 @@
   <pesquisador id="5653984850442023">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4730270E5</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4730270E5</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Valentina Piragibe</nome_completo>
       <nome_citacao_bibliografica>PIRAGIBE, V.</nome_citacao_bibliografica>
@@ -38593,7 +38593,7 @@
   <pesquisador id="0629006457891023">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8004620P1</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K8004620P1</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Valmirene Lisboa de Araujo</nome_completo>
       <nome_citacao_bibliografica>ARAUJO, V. L.</nome_citacao_bibliografica>
@@ -38626,7 +38626,7 @@
   <pesquisador id="7208200553042901">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4304680A2</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4304680A2</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Vanderlei Benedito da Silva Filho</nome_completo>
       <nome_citacao_bibliografica>FILHO, Vanderlei Benedito da Silva</nome_citacao_bibliografica>
@@ -38699,7 +38699,7 @@
   <pesquisador id="5691572259055601">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4247069H6</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4247069H6</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Victor Oscar Martins Claro</nome_completo>
       <nome_citacao_bibliografica>CLARO, Victor O. M.</nome_citacao_bibliografica>
@@ -38740,7 +38740,7 @@
   <pesquisador id="0080573074151450">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4702284A9</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4702284A9</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Vitor Garcia</nome_completo>
       <nome_citacao_bibliografica>GARCIA, V.</nome_citacao_bibliografica>
@@ -38872,7 +38872,7 @@
   <pesquisador id="1900944687526294">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4500516T4</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4500516T4</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Wagner Ideali</nome_completo>
       <nome_citacao_bibliografica>IDEALI, Wagner</nome_citacao_bibliografica>
@@ -38969,7 +38969,7 @@
   <pesquisador id="1507057519725073">
     <identificacao>
       <identificador10></identificador10>
-      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4466491Z9</foto>
+      <foto>http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4466491Z9</foto>
       <nome_inicial></nome_inicial>
       <nome_completo>Wilson Vendramel</nome_completo>
       <nome_citacao_bibliografica>VENDRAMEL, W.</nome_citacao_bibliografica>

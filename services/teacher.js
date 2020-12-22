@@ -51,12 +51,12 @@ module.exports = (app) => {
             const result = await listRelatedTeachers(search)
 
             const reduceResponse = result.reduce((acc, item) => {
-                const {professor: {properties: { nome, foto }}} = item
+                const {professor: {properties: { id, nome, foto, email }}} = item
                 const nameExist = acc.find(i => i.nome === item.professor.properties.nome )
                 
                 if(nameExist) return acc
 
-                return [...acc, { nome, foto }]
+                return [...acc, { id, nome, foto, email }]
             }, [])
 
             return reduceResponse

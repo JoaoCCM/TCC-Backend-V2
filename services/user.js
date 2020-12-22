@@ -75,7 +75,12 @@ module.exports = (app) => {
         try {
             const request = await findFavoritesTeachers(search)
 
-            return formatReturn(request, 'professor')
+            return request.map((it) => ({
+                id: it.professor.identity,
+                ...it.professor.properties,
+                searchParams: it.searchParams,
+            }))
+            
         } catch (error) {
             throw error
         }

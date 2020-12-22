@@ -3,7 +3,7 @@ const fs = require('fs')
 
 const convertXML = () => {
     const xml = fs.readFileSync(
-        __dirname + '/src/professores.xml',
+        __dirname + '/src/professoresv2.xml',
         'utf-8',
         (err, data) => {
             if (err) console.error(err)

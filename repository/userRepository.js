@@ -21,6 +21,8 @@ module.exports = (app) => {
         try {
             const final = whereStructuring(where)
 
+            console.log(`MATCH (aluno:Aluno ${final}) RETURN aluno`)
+
             const query = await app.db
                 .raw(`MATCH (aluno:Aluno ${final}) RETURN aluno`)
                 .run()
@@ -65,11 +67,9 @@ module.exports = (app) => {
         }
     }
 
-    const findFavoritesTeachers = async (search) => {
-        const searchParam = whereStructuring(search)
-
+    const findFavoritesTeachers = async (email) => {
         try {
-            const query = `MATCH (:Aluno ${searchParam})-[r:favoritou]->(professor:Professor) RETURN professor`
+            const query = `MATCH (:Aluno {email:"${email}"})-[r:favoritou]->(professor:Professor) RETURN professor, r.searchParams as searchParams`
             return app.db.raw(query).run()
         } catch (e) {
             throw e

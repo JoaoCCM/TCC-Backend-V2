@@ -1,5 +1,5 @@
 module.exports = {
-    identificacao: ["nome_completo"],
+    identificacao: ["nome_completo", "foto"],
     idiomas: ["idioma"],
     idioma: ["nome", "proficiencia"],
     formacao_academica: ["formacao"],
