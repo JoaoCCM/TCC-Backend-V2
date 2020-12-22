@@ -5,6 +5,16 @@ module.exports = (app) => {
         listSearchArea,
     } = app.repository.teacherRepository
 
+    const formatArea = (area) => area.replace('Grande área:', '')
+        .replace('Área:', '')
+        .replace('Especialidade:', '')
+        .replace('Subárea:', '')
+        .replace('.', '')
+        .replace('Outros', '')
+        .split('/')
+        .map((it) => it.trim())
+    
+
     const getOne = async (name) => {
         try {
             const teachersData = await listOneTeacher(name)
@@ -25,8 +35,15 @@ module.exports = (app) => {
                         items: [],
                     }
 
+
                     const newObject = {
-                        [labels[0]]: {
+                        [labels[0]]: labels[0] === "AreaAtuacao" ? {
+                            ...oldValue,
+                            items: [
+                                ...oldValue.items,
+                                ...formatArea(properties.nome),
+                            ],
+                        } : {
                             ...oldValue,
                             items: [
                                 ...oldValue.items,
@@ -76,15 +93,7 @@ module.exports = (app) => {
                     },
                 } = currentArea
 
-                const cleanName = nome
-                    .replace('Grande área:', '')
-                    .replace('Área:', '')
-                    .replace('Especialidade:', '')
-                    .replace('Subárea:', '')
-                    .replace('.', '')
-                    .replace('Outros', '')
-                    .split('/')
-                    .map((it) => it.trim())
+                const cleanName = formatArea(nome)
 
                 const newArray = [...allAreas, ...cleanName]
 
