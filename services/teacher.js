@@ -52,6 +52,9 @@ module.exports = (app) => {
                         },
                     }
 
+                    const areas = newObject.AreaAtuacao?.items
+                    if(areas) newObject.AreaAtuacao.items = areas.filter((item, index) => areas.indexOf(item) === index); 
+
                     return { ...acc, ...newObject }
                 },
                 []
